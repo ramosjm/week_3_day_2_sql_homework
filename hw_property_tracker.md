@@ -43,3 +43,5 @@ find_by_id takes an id. We can get the id by applying the id method to the objec
 find_by_address takes and address as a string.
 
 Q11. What are their return values?
+find_by_id will return the address, value, bedrooms and build results for that id. This will be a Property Object
+find_by_address will return all the above for that address. This will also be a Property object
